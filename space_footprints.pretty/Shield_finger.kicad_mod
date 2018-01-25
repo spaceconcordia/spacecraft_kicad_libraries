@@ -1,4 +1,4 @@
-(module Shield_finger (layer F.Cu) (tedit 5A63B2FC)
+(module Shield_finger (layer F.Cu) (tedit 5A63C2CA)
   (fp_text reference REF** (at 0 -1.4) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -13,10 +13,11 @@
   (fp_line (start 1.25 1.6) (end 1.25 3.4) (layer F.SilkS) (width 0.15))
   (fp_line (start -1.25 1.6) (end -1.25 3.4) (layer F.SilkS) (width 0.15))
   (fp_line (start -1.25 3.4) (end 1.25 3.4) (layer F.SilkS) (width 0.15))
+  (fp_line (start -0.25 2.77) (end 0.25 2.77) (layer F.SilkS) (width 0.15))
   (pad 1 smd rect (at -0.75 2.5 90) (size 1.55 0.8) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 0.75 2.5 90) (size 1.55 0.8) (layers F.Cu F.Paste F.Mask))
-  (model "D:/SC/spacecraft_kicad_libraries/3D/shield finger.stp"
-    (offset (xyz 0 -2.285999965667724 0))
+  (model "D:/SC/spacecraft_kicad_libraries/3D/shield finger.step"
+    (offset (xyz 0 -2.2 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 0))
   )
