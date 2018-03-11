@@ -1,3 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74HC157
+F http://www.ti.com/lit/ds/symlink/sn74hc157.pdf
+$ENDCMP
+#
 #End Doc Library
