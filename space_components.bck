@@ -1,3 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74HC157
+F http://www.ti.com/lit/ds/symlink/sn74hc157.pdf
+$ENDCMP
+#
+$CMP DS1624
+F https://datasheets.maximintegrated.com/en/ds/DS1624.pdf
+$ENDCMP
+#
+$CMP TPS27081A
+F http://www.ti.com/lit/ds/symlink/tps27081a.pdf
+$ENDCMP
+#
 #End Doc Library
